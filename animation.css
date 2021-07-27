@@ -1,0 +1,106 @@
+.back{
+    width: 100%;
+    height: 95vh;
+    border-radius: 30px;
+
+    background-image: linear-gradient(to left bottom, pink, violet, cyan, indigo) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+button{
+    position: absolute;
+    left: 39%;
+    top: 12%;
+    font-size: 30px ;
+    color: white ;
+    text-align: center;
+    background-color: black ;
+    padding: 10px ;
+    border-radius: 10px ;
+}
+
+table{
+    font-size: 20px ;
+    position: absolute;
+    top: 25% ;
+    left: 30%;
+
+}
+
+.bubbles{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+}
+
+.bubbles img{
+    width: 100px;
+    animation: bubb 4s linear infinite;
+    opacity: 0;
+    border-radius: 50%;
+}
+
+@keyframes bubb{
+    0%{
+          transform: translateY(0);
+          opacity: 0;
+    }
+    50%{
+         opacity: 0.5;
+    }
+    75%{
+         opacity: 0.8;
+    }
+    100%{
+          transform: translateY(-50vh);
+    }
+}
+
+.bubbles img:nth-child(1){
+    animation-delay: 0.5s;
+    size: 20px;
+
+}.bubbles img:nth-child(2){
+    animation-delay: 2s;
+    width: 10px;
+    
+}.bubbles img:nth-child(3){
+    animation-delay: 1s;
+    width: 30px;
+    
+}.bubbles img:nth-child(4){
+    animation-delay: 3s;
+    width: 45px ;
+    
+}.bubbles img:nth-child(5){
+    animation-delay: 1s;
+    size: 8px;
+    
+}.bubbles img:nth-child(6){
+    animation-delay: 2s;
+    width: 20px;
+    
+}.bubbles img:nth-child(7){
+    animation-delay: 1.5s;
+    width: 80px;
+    
+} .bubbles img:nth-child(8){
+    animation-delay: 2s;
+    width: 15px;
+    
+}.bubbles img:nth-child(9){
+    animation-delay: 3.5s;
+    width: 50px;
+    
+}.bubbles img:nth-child(10){
+    animation-delay: 4.5s;
+    width: 31px;
+    
+}

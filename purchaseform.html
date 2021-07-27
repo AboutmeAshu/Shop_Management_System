@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Purchase form</title>
+        
+        <!--Latest compiled and minified CSS-->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
+        <!--Jquery Lib-->
+        <script type="text/javascript" src="bootstrap/js/jquery-3.4.1.min.js"></script>
+        <!-- latest compiled and minified JavaScript-->
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+        <link href="index.css" rel="stylesheet" type="text/css">
+        
+        
+    </head>
+    <body>
+          
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        
+                    </button>
+                    <a href="index.html" class="navbar-brand">Shop Management system -> Purchase -> Add Purchase</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Home</a></li>
+                        
+                       
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="banner_image">
+          <div class="container">
+              <center>
+              <div id="banner_content">
+                  
+                        <h1 style="color: white">Purchase Form</h1>
+                        <div class="panel-body">
+                            
+                            <form  method="post" action = "add_purchase.php">
+                                <div class="form-group" >
+                                    <label for="datet">Date Bought</label>
+                                    <input type="date" class="form-control input-lg" name="date">
+                                </div><br><br>
+                                <div>
+                                <label for="ID">Borrowings</label>
+                                    <input type="number" class="form-control input-lg" name="borrowing">
+                                </div><br><br>
+                                <div>
+                                <label for="number">Customer ID</label>
+                                    <input type="number" class="form-control input-lg" name="Customer">
+                                </div><br><br>
+                                <div>
+                                <label for="number">Product ID</label>
+                                    <input type="number" class="form-control input-lg" name="Product">
+                                </div><br><br>
+                                <div>
+                                <label for="number">Quantity</label>
+                                    <input type="number" class="form-control input-lg" name="Quantity">
+                                </div>
+                                
+                              <br><br><br><br>
+                              
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-primary" onclick="submit()">Submit</button>   
+                                </div>
+                            </form>
+                            
+                        </div>
+              </div></center>
+                </div>
+            </div>
+        </div>
+              </div>
+              
+          </div>
+            
+        </div>
+        
+        <footer>
+        <div class="container">
+        <center>
+           
+        </center>
+        
+        </div>
+        </footer>
+
+         <script> 
+             function submit() { 
+                  document.getElementByTag("form").reset(); 
+                } 
+</script>
+        
+    </body>
+</html>

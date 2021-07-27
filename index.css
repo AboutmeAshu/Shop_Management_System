@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18 May, 2020, 12:24:19 PM
+    Author     : Shailesh Mohite
+*/
+
+#banner_image{
+    padding-top: 75px;
+padding-bottom: 50px;
+text-align: center;
+color: #f8f8f8;
+background-image: url('bootstrap/images/intro-bg_1.jpg'); 
+background-size: cover;
+min-height: 600px;
+}
+
+#banner_content{
+position: relative;
+padding-top: 6%;
+padding-bottom: 6%;
+margin-top: 12%;
+margin-bottom: 12%;
+background-color: rgba(0, 0, 0, 0.7);
+max-width: 660px;
+
+}
+footer{
+padding: 10px 0;
+background-color: #101010;
+color:#9d9d9d;
+bottom: 0;
+width: 100%;
+}
+h1 {
+  display: block;
+  font-size: 3em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color: #b2dba1;
+}
